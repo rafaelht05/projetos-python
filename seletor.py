@@ -1,6 +1,7 @@
-#--Seletor de caracteres
+#--Seletor de caracteres--
+print("Esolha uma letra e veja se está disponível")
 
-letra = input("Digite a letra")
+letra = input("Digite a letra: ").upper()
 if letra == "A":
   print("Você escolehu a letra A")
 elif letra == "B":
